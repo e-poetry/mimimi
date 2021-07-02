@@ -7,7 +7,7 @@ export default function Form() {
     console.log(e)
   }
   return (
-    <Box sx={{ maxWidth: 640, mx: "auto" }} as="form" onSubmit={handleSubmit}>
+    <Box sx={{ maxWidth: 640 }} as="form" onSubmit={handleSubmit}>
       <Label htmlFor="name">Seudónimo</Label>
       <Input name="name" id="name" mb={3} />
       <Label htmlFor="url">Enlace a la obra</Label>
