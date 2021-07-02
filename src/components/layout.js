@@ -1,18 +1,22 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+/** @jsx jsx */
+import { jsx, Themed } from "theme-ui"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
-import * as React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import Header from "./header"
 
-import Header from "./header"
-import "./layout.css"
+const Container = props => (
+  <div
+    {...props}
+    sx={{
+      width: "100%",
+      maxWidth: "container",
+      mx: "auto",
+      px: 3,
+    }}
+  />
+)
 
-const Layout = ({ children }) => {
+export default function Layout(props) {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -22,34 +26,51 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+    <div
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+        variant: "layout.root",
+      }}
+    >
+      <header
+        sx={{
+          width: "100%",
+          variant: "layout.header",
         }}
       >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </>
+        <Container>
+          <Themed.a as={Link} to="/">
+            <Themed.h1 style={{ mb: 0 }}>
+              {data.site.siteMetadata?.title || `Title`}
+            </Themed.h1>
+          </Themed.a>
+        </Container>
+      </header>
+      <main
+        sx={{
+          width: "100%",
+          flex: "1 1 auto",
+          variant: "layout.main",
+        }}
+      >
+        <Container>{props.children}</Container>
+      </main>
+      <footer
+        sx={{
+          width: "100%",
+          variant: "layout.footer",
+        }}
+      >
+        <Container sx={{ textAlign: "center" }}>
+          <Themed.a href="https://e-poetry.institute">
+            e-poetry.institute
+          </Themed.a>{" "}
+          <small>{new Date().getFullYear()}</small>
+        </Container>
+      </footer>
+    </div>
   )
 }
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
-
-export default Layout
