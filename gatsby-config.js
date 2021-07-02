@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/mimimi`,
   siteMetadata: {
     title: `mimimi`,
     description: `nueva poesía latinoamericana`,
