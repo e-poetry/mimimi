@@ -40,12 +40,29 @@ const theme = merge(light, {
       bg: "primary",
       color: "background",
       "&:hover": {
-        bg: "secondary",
+        bg: "background",
         color: "primary",
       },
     },
   },
+  forms: {
+    label: {
+      fontSize: 1,
+      fontWeight: "bold",
+    },
+    input: {
+      borderColor: "gray",
+      "&:focus": {
+        borderColor: "primary",
+        boxShadow: t => `0 0 0 2px ${t.colors.primary}`,
+        outline: "none",
+      },
+    },
+  },
   styles: {
+    h1: {
+      overflowWrap: "anywhere",
+    },
     p: {
       fontSize: [1, 2],
       textAlign: "justify",
