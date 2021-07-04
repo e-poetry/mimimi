@@ -26,7 +26,7 @@ A los seleccionados se les entregará un ejemplar físico del libro objeto, así
 
      <Form />
 
-   Se aceptarán envíos hasta el 8 de Septiembre de 2021
+   **Se aceptarán envíos hasta el 8 de Septiembre de 2021.**
 
 4. Se buscan proyectos que experimenten con las características intrínsecas de la literatura digital como lo son las escrituras hipertextuales, interactivas, combinatorias, generativas,poesía visual, poesía sonora, entre otras. Los proyectos deben estar en línea. Podrán usar alguna red social como parte de los proyectos, siempre y cuando su acontecer en redes sea parte estética del proyecto en sí.
 
@@ -68,4 +68,4 @@ Mimimimi mi mi mi mi mi mi mi mi mi mi miMimimimi mi mi mi mi mi mi mi mi mi mi 
 
 <Form />
 
-Si tienes dudas sobre la convocatoria puedes escribir a: mimimi@e-poetry.institute
+Si tienes dudas sobre la convocatoria puedes escribir a: mimimi@e-poetry.institute.
