@@ -71,6 +71,25 @@ const theme = merge(light, {
     },
   },
   styles: {
+    root: {
+      counterReset: "my-counter",
+    },
+    ol: {
+      listStyle: "none",
+      // counterReset: "my-counter",
+      li: {
+        mb: 3,
+        counterIncrement: "my-counter",
+        p: {
+          display: "inline",
+        },
+      },
+      "li::before": {
+        content: `counter(my-counter) ". "`,
+        fontSize: [2, 3],
+        fontWeight: "bold",
+      },
+    },
     h1: {
       overflowWrap: "anywhere",
     },
@@ -80,6 +99,7 @@ const theme = merge(light, {
 
     p: {
       fontSize: [1, 2],
+      // display: "inline",
       // textAlign: "justify",
     },
     a: {
