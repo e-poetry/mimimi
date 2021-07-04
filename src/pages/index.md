@@ -8,17 +8,17 @@ import Form from "../components/form"
 
 Con el propósito de fomentar la creación, experimentación y producción de literatura digital contemporánea, el [e-poetry.institute](https://e-poetry.institute) abre la convocatoria de proyectos para la antología **mimimi: nueva poesía latinoamericana**.
 
-Esta convocatoria busca reconocer, mapear y establecer una geografía de las escrituras digitales en latinoamérica, así como acercar la poesía electrónica a lectores más tradicionales, en un entorno donde las escrituras digitales aún son tomadas como exóticas. Este proyecto toma como máxima que la literatura electrónica no es un asunto futuro: sino un asunto contemporáneo y presente en nuestra forma de escribir y leer textos.
+Esta convocatoria busca **reconocer, mapear y establecer una geografía de las escrituras digitales en latinoamérica**, así como acercar la poesía electrónica a lectores más tradicionales, en un entorno donde las escrituras digitales aún son tomadas como exóticas. Este proyecto toma como máxima que la literatura electrónica no es un asunto futuro: sino un **asunto contemporáneo y presente** en nuestra forma de escribir y leer textos.
 
-En esta edición, los seleccionados serán publicados en formato digital y físico, en una web interactiva que presente los proyectos junto a reseñas de los mismos, así como artículos, ensayos y estudios sobre la actualidad de la poesía electrónica en latinoamérica. El formato físico será publicado en un libro objeto de bella edición.
+En esta edición, los seleccionados serán publicados en **formato digital y físico**, en una web interactiva que presente los proyectos junto a reseñas de los mismos, así como artículos, ensayos y estudios sobre la actualidad de la poesía electrónica en latinoamérica. El formato físico será publicado en un **libro objeto** de bella edición.
 
-A los seleccionados se les entregará un ejemplar físico del libro objeto, así como NFTs de los proyectos.
+A los seleccionados se les entregará un ejemplar físico del libro objeto, así como **NFTs** de los proyectos.
 
 ## DEL PARTICIPANTE
 
-1. Podrán participar tod@s l@s ciudadan@s latinoamericanos por nacimiento, residentes en un país latinoamericano o en cualquier país del mundo, sin límite de edad.
+1. Podrán participar _tod@s l@s ciudadan@s latinoamericanos por nacimiento_, residentes en un país latinoamericano o en cualquier país del mundo, sin límite de edad.
 
-2. Se podrán presentar proyectos a título individual o en colectivo.
+2. Se podrán presentar proyectos a título **individual o en colectivo**.
 
 ## DE LA OBRA
 
