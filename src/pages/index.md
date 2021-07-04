@@ -1,5 +1,5 @@
 ---
-title: "nueva poesía latinoamericana"
+title: "convocatoria: nueva poesía latinoamericana"
 ---
 
 import Form from "../components/form"
@@ -22,19 +22,15 @@ A los seleccionados se les entregará un ejemplar físico del libro objeto, así
 
 ## DE LA OBRA
 
-3. Cada participante deberá enviar una pieza en literatura digital en español o en alguna de las lenguas originarias habladas en territorio latinoamericano. Los trabajos deben estar disponibles online de manera gratuita. Los trabajos deberán de enviarse a través del siguiente formulario:
-
-     <Form />
-
-   **Se aceptarán envíos hasta el 8 de Septiembre de 2021.**
+3. Cada participante deberá enviar una pieza en literatura digital en español o en alguna de las lenguas originarias habladas en territorio latinoamericano. Los trabajos **deben estar disponibles online de manera gratuita**.
 
 4. Se buscan proyectos que experimenten con las características intrínsecas de la literatura digital como lo son las escrituras hipertextuales, interactivas, combinatorias, generativas,poesía visual, poesía sonora, entre otras. Los proyectos deben estar en línea. Podrán usar alguna red social como parte de los proyectos, siempre y cuando su acontecer en redes sea parte estética del proyecto en sí.
 
-5. Cada participante debe llenar el formulario de participación. La fecha límite para llenar dicho registro será el 1 de Septiembre de 2021 a las 11:59 pm.
+5. Cada participante debe llenar el formulario de participación. La **fecha límite** para llenar dicho registro será el **1 de Septiembre de 2021 a las 11:59 pm**.
 
-6. Los proyectos pueden no ser inéditos. En caso los proyectos hayan sido publicados anteriormente, se establece el 1 de Junio de 2020 como fecha de antigüedad máxima.
+6. Los proyectos pueden no ser inéditos. En caso que los proyectos hayan sido publicados anteriormente, se establece el 1 de Junio de 2020 como fecha de antigüedad máxima.
 
-7. Para guardar la imparcialidad de la selección, los proyectos no deberán de indicar ningún nombre de autor, sea este colectivo o individual dentro del enlace del proyecto. Luego de ser seleccionados los participantes pueden indicar el nombre del autor o autores en el proyecto en sí, si así lo quieren.
+7. Para guardar la imparcialidad de la selección, **los proyectos no deberán de indicar ningún nombre de autor**, sea este colectivo o individual dentro del enlace del proyecto. Luego de ser seleccionados los participantes pueden indicar el nombre del autor o autores en el proyecto en sí, si así lo quieren.
 
 ## DEL JURADO
 
@@ -64,8 +60,10 @@ A los seleccionados se les entregará un ejemplar físico del libro objeto, así
 
 ## INSCRIPCIÓN
 
-Mimimimi mi mi mi mi mi mi mi mi mi mi miMimimimi mi mi mi mi mi mi mi mi mi mi miMimimimi mi mi mi mi mi mi mi mi mi mi miMimimimi mi mi mi mi mi mi mi mi mi mi mi
+Como medida de imparcialidad, la información recopilada por este formulario se almacena codificada de manera que l@s jurad@s desconozcan la autoría de las obras inscritas.
 
 <Form />
+
+**Se aceptarán inscripciones hasta el 8 de Septiembre de 2021.**
 
 Si tienes dudas sobre la convocatoria puedes escribir a: mimimi@e-poetry.institute.
