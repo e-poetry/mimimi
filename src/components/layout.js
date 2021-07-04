@@ -36,7 +36,7 @@ export default function Layout(props) {
         variant: "layout.root",
       }}
     >
-      <Seo title={props.seo?.title || props.pageContext.frontmatter.title} />
+      <Seo title={props.seo?.title || props.pageContext?.frontmatter.title} />
       <header
         sx={{
           width: "100%",
