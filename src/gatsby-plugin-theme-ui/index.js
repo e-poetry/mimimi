@@ -38,7 +38,7 @@ const theme = merge(light, {
   },
   buttons: {
     primary: {
-      height: 80,
+      // height: 80,
       width: "100%",
       border: theme => `1px solid ${theme.colors.primary}`,
       cursor: "pointer",
@@ -53,8 +53,8 @@ const theme = merge(light, {
   forms: {
     primary: {
       p: 3,
-      maxWidth: ["100%", 640],
-      mx: "auto",
+      // maxWidth: ["100%", 640],
+      // mx: "auto",
     },
     label: {
       fontSize: 1,
