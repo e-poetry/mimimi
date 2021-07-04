@@ -58,7 +58,7 @@ export default function Layout(props) {
       >
         <Container>{props.children}</Container>
       </main>
-      <footer
+      {/* <footer
         sx={{
           width: "100%",
           variant: "layout.footer",
@@ -70,7 +70,7 @@ export default function Layout(props) {
           </Themed.a>{" "}
           <small>{new Date().getFullYear()}</small>
         </Container>
-      </footer>
+      </footer> */}
     </div>
   )
 }
