@@ -3,6 +3,7 @@ import { jsx, Themed } from "theme-ui"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 // import Header from "./header"
+import Seo from "./seo"
 
 const Container = props => (
   <div
@@ -35,6 +36,7 @@ export default function Layout(props) {
         variant: "layout.root",
       }}
     >
+      <Seo title={props.seo?.title || props.pageContext.frontmatter.title} />
       <header
         sx={{
           width: "100%",
