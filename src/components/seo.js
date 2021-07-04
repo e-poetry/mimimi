@@ -28,7 +28,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  const { defaultImage } = site.siteMetadata
+  const defaultImage = `${__PATH_PREFIX__}/${site.siteMetadata.defaultImage}`
   return (
     <Helmet
       htmlAttributes={{
