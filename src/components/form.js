@@ -1,20 +1,78 @@
 /** @jsx jsx */
-import { jsx, Box, Label, Input, Button } from "theme-ui"
+import { jsx, Themed, Box, Label, Input, Button, Spinner } from "theme-ui"
+import { useState } from "react"
+import { alpha } from "@theme-ui/color"
 
 export default function Form() {
-  const handleSubmit = e => {
-    e.preventDefault()
-    console.log(e)
+  const [state, setState] = useState()
+  const [loading, setLoading] = useState(false)
+  const [sent, setSent] = useState(false)
+  const handleChange = async e => {
+    const value = e.target.value
+    setState({
+      ...state,
+      [e.target.name]: e.target.name === "email" ? window.btoa(value) : value,
+    })
   }
+
+  const handleSubmit = async e => {
+    e.preventDefault()
+    setLoading(true)
+    try {
+      const response = await fetch("https://append-to-sheet.vercel.app/api", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ values: Object.values(state) }),
+      })
+      const data = await response.json()
+      console.log(data)
+      setSent(true)
+    } catch (error) {
+      console.error(error)
+    }
+  }
+
   return (
-    <Box sx={{ maxWidth: 640 }} as="form" onSubmit={handleSubmit}>
+    <Box
+      as="form"
+      sx={{
+        variant: "forms.primary",
+        position: "relative",
+      }}
+      onChange={handleChange}
+      onSubmit={handleSubmit}
+    >
       <Label htmlFor="name">Seudónimo</Label>
-      <Input name="name" id="name" mb={3} />
+      <Input type="text" name="name" id="name" required />
       <Label htmlFor="url">Enlace a la obra</Label>
-      <Input type="url" name="url" id="url" mb={3} />
+      <Input type="url" name="url" id="url" required />
       <Label htmlFor="email">Correo electrónico</Label>
-      <Input type="email" name="email" id="email" mb={3} />
+      <Input type="email" name="email" id="email" required />
       <Button>Enviar</Button>
+      {loading && (
+        <div
+          sx={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            top: 0,
+            left: 0,
+            display: "flex",
+            bg: alpha("background", 0.96),
+          }}
+        >
+          {sent ? (
+            <div sx={{ m: "auto" }}>
+              <Themed.h4>
+                Bien, <span sx={{ color: "primary" }}>{state.name}</span> 🥳
+              </Themed.h4>
+              <Themed.h4>Pronto estaremos en contacto.</Themed.h4>
+            </div>
+          ) : (
+            <Spinner sx={{ m: "auto" }} />
+          )}
+        </div>
+      )}
     </Box>
   )
 }
