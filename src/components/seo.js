@@ -29,7 +29,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  const baseUrl = site.siteMetadata.url + __PATH_PREFIX__
+  const baseUrl = site.siteMetadata.url
   const defaultImage = baseUrl + site.siteMetadata.defaultImage
   return (
     <Helmet
