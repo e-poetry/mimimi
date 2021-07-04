@@ -3,6 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `mimimi`,
     description: `nueva poesía latinoamericana`,
+    url: `https://e-poetry.institute/mimimi`,
     image: `/mimimi.png`,
     author: `e-poetry.institute`,
   },
