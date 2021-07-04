@@ -1,13 +1,19 @@
-import * as React from "react"
+/** @jsx jsx */
+import { jsx, Themed } from "theme-ui"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 
 const NotFoundPage = () => (
-  <Layout>
-    <Seo title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+  <Layout seo={{ title: "404: archivo no encontrado 🤦" }}>
+    <Themed.h1>
+      404: archivo no encontrado{" "}
+      <span role="img" aria-label="facepalm">
+        🤦
+      </span>
+    </Themed.h1>
+    <Themed.p>
+      You just hit a route that doesn&#39;t exist... the sadness.
+    </Themed.p>
   </Layout>
 )
 
