@@ -12,8 +12,6 @@ Esta convocatoria busca **reconocer, mapear y establecer una geografía de las e
 
 En esta edición, los seleccionados serán publicados en **formato digital y físico**, en una web interactiva que presente los proyectos junto a reseñas de los mismos, así como artículos, ensayos y estudios sobre la actualidad de la poesía electrónica en latinoamérica. El formato físico será publicado en un **libro objeto** de bella edición.
 
-A los seleccionados se les entregará un ejemplar físico del libro objeto, así como **NFTs** de los proyectos.
-
 ## DEL PARTICIPANTE
 
 1. Podrán participar _tod@s l@s ciudadan@s latinoamericanos por nacimiento_, residentes en un país latinoamericano o en cualquier país del mundo, sin límite de edad.
@@ -46,9 +44,9 @@ A los seleccionados se les entregará un ejemplar físico del libro objeto, así
 
 ## SELECCIÓN
 
-11. Los resultados se publicarán el 15 de Septiembre de 2021 en las plataformas del [e-poetry.institute](https://e-poetry.institute) y las redes sociales, tanto de este instituto como de mimimi, así como serán comunicados por el correo electrónico o usuario de telegram que el participante haya indicado.
+11. Los resultados se publicarán el 15 de Septiembre de 2021 en las plataformas del [e-poetry.institute](https://e-poetry.institute) y las redes sociales.
 
-12. Se otorgarán certificados digitales en NFT a los seleccionados en la convocatoria, así como una bella edición digital y física de los proyectos seleccionados, quienes serán reseñados dentro del proyecto mimimi, nueva poesía latinoamericana
+12. Los resultados serán comunicados al correo electrónico que el participante haya indicado.
 
 ## ASPECTOS TÉCNICOS DE LA PARTICIPACIÓN
 
