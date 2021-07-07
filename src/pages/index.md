@@ -26,7 +26,7 @@ A los seleccionados se les entregará un ejemplar físico del libro objeto, así
 
 4. Se buscan proyectos que experimenten con las características intrínsecas de la literatura digital como lo son las escrituras hipertextuales, interactivas, combinatorias, generativas,poesía visual, poesía sonora, entre otras. Los proyectos deben estar en línea. Podrán usar alguna red social como parte de los proyectos, siempre y cuando su acontecer en redes sea parte estética del proyecto en sí.
 
-5. Cada participante debe llenar el formulario de participación. La **fecha límite** para llenar dicho registro será el **1 de Septiembre de 2021 a las 11:59 pm**.
+5. Cada participante debe llenar el formulario de participación. La **fecha límite** para llenar dicho registro será el **8 de Septiembre de 2021 a las 11:59 pm**.
 
 6. Los proyectos pueden no ser inéditos. En caso que los proyectos hayan sido publicados anteriormente, se establece el 1 de Junio de 2020 como fecha de antigüedad máxima.
 
