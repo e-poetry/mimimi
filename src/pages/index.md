@@ -44,6 +44,13 @@ En esta edición, los seleccionados serán publicados en **formato digital y fí
 
 ## SELECCIÓN
 
+1. Los criterios a considerar para la selección son:
+
+   - ###### Interactividad
+   - ###### Experiencia de usuario
+   - ###### Innovación
+   - ###### Uso de la textualidad
+
 1. Los resultados se publicarán el 15 de Septiembre de 2021 en las plataformas del [e-poetry.institute](https://e-poetry.institute) y las redes sociales.
 
 1. Los resultados serán comunicados al correo electrónico que el participante haya indicado.

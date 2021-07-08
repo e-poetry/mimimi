@@ -72,22 +72,32 @@ const theme = merge(light, {
   },
   styles: {
     root: {
-      counterReset: "my-counter",
+      counterReset: "main-counter",
     },
     ol: {
       listStyle: "none",
-      // counterReset: "my-counter",
       li: {
+        counterIncrement: "main-counter",
         mb: 3,
-        counterIncrement: "my-counter",
         p: {
           display: "inline",
         },
       },
       "li::before": {
-        content: `counter(my-counter) ". "`,
+        content: `counter(main-counter) ". "`,
         fontSize: [2, 3],
         fontWeight: "bold",
+      },
+    },
+    ul: {
+      li: {
+        counterIncrement: "none",
+        h6: {
+          my: 1,
+        },
+      },
+      "li::before": {
+        content: "none",
       },
     },
     h1: {
