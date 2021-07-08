@@ -22,7 +22,7 @@ En esta edición, l@s seleccionad@s serán publicados en **formato digital y fí
 
 1. Cada participante deberá enviar una pieza en literatura digital en español o en alguna de las lenguas originarias habladas en territorio latinoamericano. Los trabajos **deben estar disponibles _en línea_ de manera gratuita**.
 
-1. Se buscan proyectos que experimenten con las características intrínsecas de la literatura digital como lo son las escrituras hipertextuales, interactivas, combinatorias, generativas, poesía visual, poesía sonora, entre otras. Podrán usar alguna red social como parte de los proyectos, siempre y cuando su acontecer en redes sea parte estética del proyecto en sí.
+1. Se buscan proyectos que experimenten con las características intrínsecas de la literatura digital como lo son las [escrituras hipertextuales](http://www.esteticasdigitales.cl/pentagonal-web/), [interactivas](https://w.itch.io/end-of-the-world), [combinatorias](https://twitter.com/Poesia_es_Bot), [generativas](https://www.instagram.com/ocp_oraculo/), [poesía visual](https://www.youtube.com/watch?v=Od3Q0FRAei0&t=1s&ab_channel=JoseAZ), [poesía sonora](https://youtu.be/20hzGvermIQ), [uso de redes sociales](https://en.wikipedia.org/wiki/9MOTHER9HORSE9EYES9), entre otras. Podrán usar alguna red social como parte de los proyectos, siempre y cuando su acontecer en redes sea parte estética del proyecto en sí.
 
 1. Cada participante debe llenar el formulario de participación. La **fecha límite** para llenar dicho registro será el **8 de Septiembre de 2021 a las 11:59 pm**.
 
