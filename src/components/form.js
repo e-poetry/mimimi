@@ -4,14 +4,15 @@ import { useState } from "react"
 import { alpha } from "@theme-ui/color"
 
 export default function Form() {
-  const [state, setState] = useState()
+  const [values, setValues] = useState()
   const [loading, setLoading] = useState(false)
   const [sent, setSent] = useState(false)
-  const handleChange = async e => {
-    const value = e.target.value
-    setState({
-      ...state,
-      [e.target.name]: e.target.name === "email" ? window.btoa(value) : value,
+
+  const handleChange = e => {
+    const { name, value } = e.target
+    setValues({
+      ...values,
+      [name]: name === "email" ? window.btoa(value) : value,
     })
   }
 
@@ -19,10 +20,11 @@ export default function Form() {
     e.preventDefault()
     setLoading(true)
     try {
+      const { name, url, email } = values
       const response = await fetch("https://append-to-sheet.vercel.app/api", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ values: Object.values(state) }),
+        body: JSON.stringify({ values: Object.values({ name, url, email }) }),
       })
       const data = await response.json()
       console.log(data)
@@ -64,7 +66,7 @@ export default function Form() {
           {sent ? (
             <div sx={{ m: "auto" }}>
               <Themed.h4>
-                Bien, <span sx={{ color: "primary" }}>{state.name}</span> 🥳
+                Bien, <span sx={{ color: "primary" }}>{values.name}</span> 🥳
               </Themed.h4>
               <Themed.h4>Pronto estaremos en contacto.</Themed.h4>
             </div>
