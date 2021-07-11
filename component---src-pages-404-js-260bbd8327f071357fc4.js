@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[883],{9616:function(t,e,a){"use strict";a.r(e);var n=a(1937),s=a(6674),r=a(8377);e.default=function(){return(0,n.tZ)(r.Z,{seo:{title:"404: archivo no encontrado 🤦"}},(0,n.tZ)(s.Ge.h1,null,"404: archivo no encontrado"," ",(0,n.tZ)("span",{role:"img","aria-label":"facepalm"},"🤦")),(0,n.tZ)(s.Ge.p,null,"You just hit a route that doesn't exist... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-260bbd8327f071357fc4.js.map
