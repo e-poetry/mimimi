@@ -28,7 +28,7 @@ En esta edición, l@s seleccionad@s serán publicados en **formato digital y fí
 
 1. Los proyectos **pueden no ser inéditos**. En caso que los proyectos hayan sido publicados anteriormente, se establece el **1 de Junio de 2020** como **fecha de antigüedad máxima**.
 
-1. Para guardar la imparcialidad de la selección, **los proyectos no deberán de indicar ningún nombre de autor**, sea este colectivo o individual dentro del enlace del proyecto. Luego de ser seleccionados los participantes pueden indicar el nombre del autor o autores en el proyecto en sí, si así lo quieren.
+1. Como medida de imparcialidad, **se sugiere que los proyectos no indiquen ninguna referencia a l@s autor@s** dentro del enlace del proyecto.
 
 ## DEL JURADO
 
